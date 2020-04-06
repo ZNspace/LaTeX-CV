@@ -554,7 +554,7 @@
 % Usage: \makecvfooter{<left>}{<center>}{<right>}
 \newcommand*{\makecvfooter}[3]{%
   \fancyfoot{}
-  \fancyfoot[L]{\footerstyle{#1}}
+  % \fancyfoot[L]{\footerstyle{#1}}
   \fancyfoot[C]{\footerstyle{#2}}
   \fancyfoot[R]{\footerstyle{#3}}
 }
